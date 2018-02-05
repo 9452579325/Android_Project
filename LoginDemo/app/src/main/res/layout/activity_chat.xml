@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kapil"
+    android:orientation="vertical"
+    tools:context="com.example.dream.logindemo.ChatActivity">
+
+    <ListView
+        android:id="@+id/lstChat"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_weight="0.89"/>
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal">
+
+<EditText
+    android:id="@+id/txtMessage"
+    android:layout_width="220dp"
+    android:layout_height="50dp"
+    android:layout_margin="10dp"
+    android:background="@color/cardview_light_background"
+    android:layout_weight="1"
+    android:hint="Type Here" />
+
+<ImageButton
+    android:id="@+id/btnSend"
+    android:layout_width="20dp"
+    android:layout_height="50dp"
+    android:background="@drawable/image1"
+    android:layout_margin="10dp"
+    android:layout_weight="4"/>
+
+</LinearLayout>
+
+</LinearLayout>
